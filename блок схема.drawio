@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-06-11T19:28:00.218Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="hq1jGv6sKOBBmsS_YxaG" version="23.1.5" type="device" pages="2">
+<mxfile host="Electron" modified="2024-06-11T19:31:39.744Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="mbq8nbeYNzJs6nFB7FtC" version="23.1.5" type="device" pages="2">
   <diagram name="Блок-схема кода" id="xtSai8mKgwNbJAHcX8Js">
     <mxGraphModel dx="860" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -75,7 +75,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4AYVfq4wk7vpiGDotgHi" name="CountShortStrings">
-    <mxGraphModel dx="1518" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="516" dy="252" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -130,7 +130,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uU963peioneaOHXmDbjq-18" value="str&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(31, 31, 31);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(31, 31, 31); color: rgb(156, 220, 254);&quot;&gt;Length&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(31, 31, 31);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(31, 31, 31); color: rgb(212, 212, 212);&quot;&gt;&amp;lt;=&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(31, 31, 31);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(31, 31, 31); color: rgb(181, 206, 168);&quot;&gt;3&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uU963peioneaOHXmDbjq-18" value="str.Length &amp;lt;= 3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="183.5" y="619" width="165" height="110" as="geometry" />
         </mxCell>
         <mxCell id="uU963peioneaOHXmDbjq-21" value="Перебор всех строк в массиве inputArray с помощью цикла foreach" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
