@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-06-11T19:45:33.986Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="dgHcKeOppPolSo1cmHlr" version="23.1.5" type="device" pages="3">
+<mxfile host="Electron" modified="2024-06-11T20:03:01.610Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="ubgm6_YEiEkl0tKp_k5v" version="23.1.5" type="device" pages="3">
   <diagram name="Блок-схема кода" id="xtSai8mKgwNbJAHcX8Js">
     <mxGraphModel dx="860" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -178,21 +178,120 @@
     </mxGraphModel>
   </diagram>
   <diagram id="of-Pjz_ZvakaLb1dP2Vw" name="CreateShortStringsArray">
-    <mxGraphModel dx="1717" dy="1603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3694" dy="2567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="QNwPfnC9jvyKTnQr8mlQ-1" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Функция для создания массива коротких строк&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;static&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;string&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;[] &lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;CreateShortStringsArray&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;string&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;[] &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;inputArray&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;count&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;&amp;nbsp; &amp;nbsp; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;string&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;[] &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;resultArray&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;new&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;string&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;count&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;]; &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Объявление и инициализация нового массива строк resultArray размером count.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;index&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;; &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Объявление переменной index для отслеживания текущей позиции в resultArray.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;foreach&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;string&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;str&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;in&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;inputArray&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;) &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Снова перебор всех строк в массиве inputArray.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;str&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;Length&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;lt;=&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #b5cea8;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;) &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Проверка, если длина текущей строки меньше или равна 3.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;resultArray&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;index&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;] &lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;str&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;; &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Заполнение resultArray текущей строкой.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;index&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;++&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;; &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Увеличение индекса для следующей позиции в resultArray.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;return&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;resultArray&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;; &lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;// Возврат нового массива строк&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="-1150" width="560" height="440" as="geometry" />
-        </mxCell>
         <mxCell id="3qOUBMvrSRp052vf4XBV-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3qOUBMvrSRp052vf4XBV-1" target="3qOUBMvrSRp052vf4XBV-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3qOUBMvrSRp052vf4XBV-1" value="начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-610" y="-1130" width="120" height="80" as="geometry" />
+          <mxGeometry x="-610" y="-1169" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JSoUtLN1sq_0F0DIzB5n-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3qOUBMvrSRp052vf4XBV-2" target="JSoUtLN1sq_0F0DIzB5n-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3qOUBMvrSRp052vf4XBV-2" value="&lt;p&gt;static string[] CreateShortStringsArray(string[] inputArray, int count)&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-665" y="-970" width="230" height="60" as="geometry" />
+          <mxGeometry x="-665" y="-1049" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MrH3Jw0gB8Yfx5TGmyDV-1" value="Объявили метод, который создает массив строк с двумя аргументами&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="-1049" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JSoUtLN1sq_0F0DIzB5n-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JSoUtLN1sq_0F0DIzB5n-1" target="JSoUtLN1sq_0F0DIzB5n-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JSoUtLN1sq_0F0DIzB5n-1" value="&lt;p&gt;string[] resultArray = new string[count];&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-665" y="-929" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JSoUtLN1sq_0F0DIzB5n-3" value="Объявление и инициализация нового массива строк resultArray размером count" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="-925" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JC9jwDuVzXXAUm34xZrY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JSoUtLN1sq_0F0DIzB5n-4" target="JSoUtLN1sq_0F0DIzB5n-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JSoUtLN1sq_0F0DIzB5n-4" value="&lt;p&gt;int index = 0:&lt;/p&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-665" y="-809" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JSoUtLN1sq_0F0DIzB5n-7" value="&amp;nbsp;Объявление переменной index для отслеживания текущей позиции в resultArray" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="-809" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o2pPIA6kvlXa8-K8Dds3-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JSoUtLN1sq_0F0DIzB5n-8" target="o2pPIA6kvlXa8-K8Dds3-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wICCiyBY5Dh3nlVd2eu4-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JSoUtLN1sq_0F0DIzB5n-8" target="wICCiyBY5Dh3nlVd2eu4-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-410" y="-649" />
+              <mxPoint x="-410" y="-180" />
+              <mxPoint x="-430" y="-180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JSoUtLN1sq_0F0DIzB5n-8" value="string str in inputArray" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="-689" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JC9jwDuVzXXAUm34xZrY-2" value="Перебор всех строк в массиве inputArray с помощью цикла foreach" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="-679" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wICCiyBY5Dh3nlVd2eu4-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o2pPIA6kvlXa8-K8Dds3-1" target="wICCiyBY5Dh3nlVd2eu4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wICCiyBY5Dh3nlVd2eu4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="o2pPIA6kvlXa8-K8Dds3-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-660" y="-649" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-780" y="-521" />
+              <mxPoint x="-780" y="-649" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o2pPIA6kvlXa8-K8Dds3-1" value="str.Length &amp;lt;= 3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="-561" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wICCiyBY5Dh3nlVd2eu4-1" value="Проверка, если длина текущей строки меньше или равна 3." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="-551" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wICCiyBY5Dh3nlVd2eu4-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wICCiyBY5Dh3nlVd2eu4-2" target="wICCiyBY5Dh3nlVd2eu4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wICCiyBY5Dh3nlVd2eu4-2" value="resultArray[index] = str;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="-419" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wICCiyBY5Dh3nlVd2eu4-4" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="-469" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wICCiyBY5Dh3nlVd2eu4-5" value="заполнение resultArray текущим словом" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="-419" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wICCiyBY5Dh3nlVd2eu4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wICCiyBY5Dh3nlVd2eu4-6" target="JSoUtLN1sq_0F0DIzB5n-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-550" y="-230" />
+              <mxPoint x="-780" y="-230" />
+              <mxPoint x="-780" y="-649" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wICCiyBY5Dh3nlVd2eu4-6" value="index++;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="-310" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wICCiyBY5Dh3nlVd2eu4-8" value="Увеличение индекса для следующей позиции в resultArray" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="-310" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wICCiyBY5Dh3nlVd2eu4-11" value="нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="-561" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wICCiyBY5Dh3nlVd2eu4-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wICCiyBY5Dh3nlVd2eu4-13" target="wICCiyBY5Dh3nlVd2eu4-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wICCiyBY5Dh3nlVd2eu4-13" value="return resultArray;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="-210" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wICCiyBY5Dh3nlVd2eu4-15" value="Возврат нового массива слов" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="-174" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wICCiyBY5Dh3nlVd2eu4-16" value="начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="-130" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
