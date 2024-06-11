@@ -1,0 +1,77 @@
+<mxfile host="Electron" modified="2024-06-11T18:03:59.361Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="VHTT-TjmoKINt8EsnLKo" version="23.1.5" type="device">
+  <diagram name="Блок-схема кода" id="xtSai8mKgwNbJAHcX8Js">
+    <mxGraphModel dx="1158" dy="1380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PoWcBCuNAkFs6vKdBJYI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oMfr6G4tk0jLkz0cDD9G-1" target="PoWcBCuNAkFs6vKdBJYI-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oMfr6G4tk0jLkz0cDD9G-1" value="начало" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="282.5" y="60" width="215" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PoWcBCuNAkFs6vKdBJYI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PoWcBCuNAkFs6vKdBJYI-4" target="PoWcBCuNAkFs6vKdBJYI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoWcBCuNAkFs6vKdBJYI-4" value="Console.WriteLine(&quot;Введите элементы массива строк через пробел&quot;);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="210" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PoWcBCuNAkFs6vKdBJYI-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PoWcBCuNAkFs6vKdBJYI-5" target="PoWcBCuNAkFs6vKdBJYI-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoWcBCuNAkFs6vKdBJYI-5" value="string input = Console.ReadLine();" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PoWcBCuNAkFs6vKdBJYI-7" value="Текст, который выводится перед вводом слов" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="225" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PoWcBCuNAkFs6vKdBJYI-8" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Чтение слов (строки) введеные пользователем&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="335" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PoWcBCuNAkFs6vKdBJYI-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PoWcBCuNAkFs6vKdBJYI-9" target="PoWcBCuNAkFs6vKdBJYI-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoWcBCuNAkFs6vKdBJYI-9" value="string[] inputArray = input.Split(&#39; &quot;);" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="450" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PoWcBCuNAkFs6vKdBJYI-11" value="&lt;div style=&quot;&quot;&gt;Создание массива inputArray, который равен строке input ( с помощью Split разделяет на элементы массива строку input, каждый новый элемент массива появляестя после каждого пробела&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="465" width="280" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="PoWcBCuNAkFs6vKdBJYI-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PoWcBCuNAkFs6vKdBJYI-12" target="PoWcBCuNAkFs6vKdBJYI-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoWcBCuNAkFs6vKdBJYI-12" value="int shortStringCount = CountShortString(inputArray);" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="590" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PoWcBCuNAkFs6vKdBJYI-14" value="&lt;div style=&quot;&quot;&gt;Вызов функции для подсчета количества слов длиной &amp;lt;= 3 символа&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="585" width="280" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="PoWcBCuNAkFs6vKdBJYI-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PoWcBCuNAkFs6vKdBJYI-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoWcBCuNAkFs6vKdBJYI-16" value="string[] resultArray = CreateShortStringsArray(inputArray, shortStringCount);" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="730" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PoWcBCuNAkFs6vKdBJYI-20" value="&lt;div style=&quot;&quot;&gt;Создание нового массива с помощью функции, в котором будут записаны слова длиной &amp;lt;= 3 символа&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="730" width="280" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="PoWcBCuNAkFs6vKdBJYI-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PoWcBCuNAkFs6vKdBJYI-21" target="PoWcBCuNAkFs6vKdBJYI-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoWcBCuNAkFs6vKdBJYI-21" value="PrintResultArray(resultArray);" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="870" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PoWcBCuNAkFs6vKdBJYI-23" value="&lt;div style=&quot;&quot;&gt;Вызов вункции для вывода на экран слов, которые &amp;lt;= 3 символам&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="870" width="280" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="PoWcBCuNAkFs6vKdBJYI-24" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1030" width="220" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
