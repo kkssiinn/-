@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-06-11T19:35:32.090Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="UUXjfRWrtCnUUx6GIBgv" version="23.1.5" type="device" pages="3">
+<mxfile host="Electron" modified="2024-06-11T19:38:57.272Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="blBvtyAsCzMoFh24-aQX" version="23.1.5" type="device" pages="3">
   <diagram name="Блок-схема кода" id="xtSai8mKgwNbJAHcX8Js">
     <mxGraphModel dx="860" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -171,10 +171,13 @@
         <mxCell id="uU963peioneaOHXmDbjq-36" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="1039" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="kEd8RPfrdCOfX57-4l64-1" value="возврат количества слов, которые меньше или равны 3 символам" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="556" y="879" width="240" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="of-Pjz_ZvakaLb1dP2Vw" name="Страница — 3">
+  <diagram id="of-Pjz_ZvakaLb1dP2Vw" name="CreateShortStringsArray">
     <mxGraphModel dx="2345" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
