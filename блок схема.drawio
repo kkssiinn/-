@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-06-11T18:08:26.318Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="U4q3KV5G_jPwytwfEwkl" version="23.1.5" type="device">
+<mxfile host="Electron" modified="2024-06-11T19:28:00.218Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="hq1jGv6sKOBBmsS_YxaG" version="23.1.5" type="device" pages="2">
   <diagram name="Блок-схема кода" id="xtSai8mKgwNbJAHcX8Js">
-    <mxGraphModel dx="2150" dy="1048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="860" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,6 +70,106 @@
         </mxCell>
         <mxCell id="PoWcBCuNAkFs6vKdBJYI-24" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="1030" width="220" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4AYVfq4wk7vpiGDotgHi" name="CountShortStrings">
+    <mxGraphModel dx="1518" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uU963peioneaOHXmDbjq-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uU963peioneaOHXmDbjq-2" target="uU963peioneaOHXmDbjq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uU963peioneaOHXmDbjq-2" value="начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="206" y="89" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uU963peioneaOHXmDbjq-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uU963peioneaOHXmDbjq-4" target="uU963peioneaOHXmDbjq-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uU963peioneaOHXmDbjq-4" value="static int CountShortStrings(string[] inputArray)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="151" y="254" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uU963peioneaOHXmDbjq-7" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Объявили функцию с одним аргументом, который является массивом строк&lt;/span&gt;&#xa;&#xa;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="556" y="244" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uU963peioneaOHXmDbjq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uU963peioneaOHXmDbjq-10" target="uU963peioneaOHXmDbjq-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="266" y="499" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uU963peioneaOHXmDbjq-10" value="int count = 0;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="151" y="359" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uU963peioneaOHXmDbjq-12" value="Объявление переменной count для хранения количесвта слов, длина которых &amp;lt;= 3 символа. Сейчас равна 0&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="556" y="349" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uU963peioneaOHXmDbjq-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uU963peioneaOHXmDbjq-17" target="uU963peioneaOHXmDbjq-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uU963peioneaOHXmDbjq-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uU963peioneaOHXmDbjq-17" target="uU963peioneaOHXmDbjq-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="506" y="519" />
+              <mxPoint x="506" y="919" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uU963peioneaOHXmDbjq-17" value="string str in inputArray" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="156" y="479" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uU963peioneaOHXmDbjq-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uU963peioneaOHXmDbjq-18" target="uU963peioneaOHXmDbjq-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uU963peioneaOHXmDbjq-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uU963peioneaOHXmDbjq-18" target="uU963peioneaOHXmDbjq-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="36" y="674" />
+              <mxPoint x="36" y="519" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uU963peioneaOHXmDbjq-18" value="str&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(31, 31, 31);&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(31, 31, 31); color: rgb(156, 220, 254);&quot;&gt;Length&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(31, 31, 31);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(31, 31, 31); color: rgb(212, 212, 212);&quot;&gt;&amp;lt;=&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(31, 31, 31);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(31, 31, 31); color: rgb(181, 206, 168);&quot;&gt;3&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="183.5" y="619" width="165" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uU963peioneaOHXmDbjq-21" value="Перебор всех строк в массиве inputArray с помощью цикла foreach" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="556" y="469" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uU963peioneaOHXmDbjq-22" value="Проверка, если длина текущей строки меньше или равна 3." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="556" y="634" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uU963peioneaOHXmDbjq-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uU963peioneaOHXmDbjq-25" target="uU963peioneaOHXmDbjq-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="36" y="519" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="36" y="789" />
+              <mxPoint x="36" y="519" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uU963peioneaOHXmDbjq-25" value="count++;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="366" y="759" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uU963peioneaOHXmDbjq-27" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="366" y="634" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uU963peioneaOHXmDbjq-28" value="увеличение переменной count на 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="556" y="749" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uU963peioneaOHXmDbjq-31" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="66" y="637" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uU963peioneaOHXmDbjq-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uU963peioneaOHXmDbjq-32" target="uU963peioneaOHXmDbjq-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1019" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uU963peioneaOHXmDbjq-32" value="return count;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="889" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uU963peioneaOHXmDbjq-36" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1039" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
